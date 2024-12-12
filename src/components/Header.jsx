@@ -55,7 +55,7 @@ const NavBar = styled.nav`
       top: 0;
       left: 0;
       width: 100%;
-      height: 30%;
+      height: 40%;
       background-color: #f9a405; /* Fondo semitransparente */
       z-index: 9999; /* Asegura que el menú esté por encima de todo */
       padding: 2rem;
