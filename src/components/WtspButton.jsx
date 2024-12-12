@@ -4,7 +4,6 @@ import imageWtsp from '../assets/whatsapp.svg';
 
 // Estilos para el botón flotante de WhatsApp
 const ButtonContainer = styled.div`
-  position: fixed;
   bottom: 16px;
   right: 16px;
   width: 40px;
@@ -24,7 +23,7 @@ const ButtonContainer = styled.div`
   }
 `;
 
-const WtspButton = () => {
+const WtspButton = (numero, mensaje) => {
   return (
     <ButtonContainer>
       <a href="https://wa.me/542646111611" target="_blank" rel="noopener noreferrer">

@@ -111,7 +111,13 @@ const AppSection = () => {
           </p>
         </div>
       </div>
-      <button>Demo Grátis</button>
+      <a
+  href="https://wa.me/542644631495?text=Hola,%20me%20gustaría%20solicitar%20la%20demo%20gratis%20de%20YMS%20App."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button>Demo Gratis</button>
+</a>
     </AppSectionContainer>
   );
 };

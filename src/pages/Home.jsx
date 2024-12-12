@@ -4,7 +4,9 @@ import AppSection from "../components/AppSection";
 import Store from "../components/Store";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import WtspButton from "../components/WtspButton";
+//import StaticMap from "../components/StaticMap";
+
+//import WtspButton from "../components/WtspButton";
 //import Galery from "../components/Galery";
 
 
@@ -16,7 +18,7 @@ const Home = () => {
       <Store />
       <AppSection />
       <About />
-      <WtspButton />
+    
       <Footer />
     </>
   );
